@@ -70,3 +70,18 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+doctrine_cache:
+    providers:
+        elcodi:
+            type: array
+
+knp_gaufrette:
+    adapters:
+        images_storage_adapter:
+            local:
+                directory: %kernel.root_dir%/../web/images
+                create: true
+    filesystems:
+        local:
+            adapter:    images_storage_adapter

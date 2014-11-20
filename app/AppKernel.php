@@ -16,6 +16,19 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+
+            new \Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle(),
+            new \Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
+
+            new Elcodi\Bundle\CoreBundle\ElcodiCoreBundle(),
+            new Elcodi\Bundle\CurrencyBundle\ElcodiCurrencyBundle(),
+            new Elcodi\Bundle\LanguageBundle\ElcodiLanguageBundle(),
+            new Elcodi\Bundle\AttributeBundle\ElcodiAttributeBundle(),
+            new Elcodi\Bundle\MediaBundle\ElcodiMediaBundle(),
+            new Elcodi\Bundle\ProductBundle\ElcodiProductBundle(),
+
+            new Elcodi\TrainingBundle\ElcodiTrainingBundle()
+
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
