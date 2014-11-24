@@ -19,7 +19,8 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "elcodi/elcodi": "~0.3",
-        "elcodi/bamboo-fixtures": "~0.3"
+        "elcodi/bamboo-fixtures": "~0.3",
+        "doctrine/doctrine-fixtures-bundle": "v2.2.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

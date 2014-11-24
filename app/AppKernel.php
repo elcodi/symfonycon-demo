@@ -18,14 +18,16 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
             new \Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle(),
+            new \Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+
             new \Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
 
             new Elcodi\Bundle\CoreBundle\ElcodiCoreBundle(),
             new Elcodi\Bundle\CurrencyBundle\ElcodiCurrencyBundle(),
             new Elcodi\Bundle\LanguageBundle\ElcodiLanguageBundle(),
             new Elcodi\Bundle\AttributeBundle\ElcodiAttributeBundle(),
-            new Elcodi\Bundle\MediaBundle\ElcodiMediaBundle(),
             new Elcodi\Bundle\ProductBundle\ElcodiProductBundle(),
+            new Elcodi\Bundle\MediaBundle\ElcodiMediaBundle(),
 
             new Elcodi\TrainingBundle\ElcodiTrainingBundle()
 

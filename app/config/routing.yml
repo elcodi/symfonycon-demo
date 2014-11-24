@@ -2,3 +2,8 @@ hello_action:
     path: /
     defaults:
         _controller: ElcodiTrainingBundle:Hello:hello
+
+price_action:
+    path: /price
+    defaults:
+        _controller: ElcodiTrainingBundle:Hello:price
