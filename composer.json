@@ -20,7 +20,9 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "elcodi/elcodi": "~0.3",
         "elcodi/bamboo-fixtures": "~0.3",
-        "doctrine/doctrine-fixtures-bundle": "v2.2.0"
+        "doctrine/doctrine-fixtures-bundle": "v2.2.0",
+
+        "mmoreram/controller-extra-bundle": "~1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

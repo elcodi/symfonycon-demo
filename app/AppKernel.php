@@ -29,6 +29,12 @@ class AppKernel extends Kernel
             new Elcodi\Bundle\ProductBundle\ElcodiProductBundle(),
             new Elcodi\Bundle\MediaBundle\ElcodiMediaBundle(),
 
+            new Elcodi\Bundle\CartBundle\ElcodiCartBundle(),
+            new \Elcodi\Bundle\UserBundle\ElcodiUserBundle(),
+            new \Elcodi\Bundle\GeoBundle\ElcodiGeoBundle(),
+
+            new Mmoreram\ControllerExtraBundle\ControllerExtraBundle(),
+
             new Elcodi\TrainingBundle\ElcodiTrainingBundle()
 
         );

@@ -7,3 +7,18 @@ price_action:
     path: /price
     defaults:
         _controller: ElcodiTrainingBundle:Hello:price
+
+change_media_action:
+    path: /media
+    defaults:
+        _controller: ElcodiTrainingBundle:Hello:changeMedia
+
+add_product_action:
+    path: /add_to_cart
+    defaults:
+        _controller: ElcodiTrainingBundle:Hello:addProduct
+
+create_order_action:
+    path: /create_order
+    defaults:
+        _controller: ElcodiTrainingBundle:Hello:createOrder
